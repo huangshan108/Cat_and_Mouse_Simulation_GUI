@@ -1,4 +1,3 @@
-Cat_and_Mouse_Simulation_GUI
-============================
+## Cat and Mouse Simulation with GUI
 
 A chasing game simulation with GUI using Java
