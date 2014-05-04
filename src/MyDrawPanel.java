@@ -1,4 +1,3 @@
-package Cat_Mouse_Gui;
 import java.awt.Color;
 import java.awt.Graphics;
 

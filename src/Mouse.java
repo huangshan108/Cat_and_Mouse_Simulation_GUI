@@ -1,4 +1,3 @@
-package Cat_Mouse_Gui;
 public class Mouse {
 	private Position myPosition;
 

@@ -1,5 +1,3 @@
-package Cat_Mouse_Gui;
-
 public class Test {
 
 	public static Mouse mouse;

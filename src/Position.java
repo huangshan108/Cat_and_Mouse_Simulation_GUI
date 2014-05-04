@@ -1,4 +1,3 @@
-package Cat_Mouse_Gui;
 public class Position {
 
 	private static final double TWOPI = 2 * Math.PI;
@@ -83,8 +82,8 @@ public class Position {
 	 * The cat catches the mouse when it (the cat) moves past the mouse while at the base of the statue, 
 	 * i.e. when the cat radius is 1.0 and the mouse angle lies between the old cat angle and the new cat angle. 
 	 * An angle B is between angles A and C in the following circumstances:
-	 * cos (B – A) > cos (C – A), and
-	 * cos (C – B) > cos (C – A).
+	 * cos (B - A) > cos (C - A), and
+	 * cos (C - B) > cos (C - A).
 	 * @param cat new position of cat.
 	 * @param mouse	new position of mouse.
 	 * @return whether cat catches the mouse before moving into this new position.
@@ -95,7 +94,7 @@ public class Position {
 			double B = mouse.getMyAngle();
 			double A = cat.getMyAngle();
 			double C = cat.getMyAngle() + 1.25;
-			if (Math.cos(B - A) > Math.cos(C - A) || Math.cos(C - B) > Math.cos(C - A)) {
+			if (Math.cos(B - A) > Math.cos(C - A) && Math.cos(C - B) > Math.cos(C - A)) {
 				return true;
 			}
 		}

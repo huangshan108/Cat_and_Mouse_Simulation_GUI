@@ -1,4 +1,3 @@
-package Cat_Mouse_Gui;
 public class Cat {
 
 	private Position myPosition;
@@ -45,7 +44,7 @@ public class Cat {
 		double catAng = myPosition.getMyAngle();
 		
 		/**
-		 * The cat sees the mouse if (cat radius) * cos (cat angle – mouse angle) is at least 1.0.
+		 * The cat sees the mouse if (cat radius) * cos (cat angle ��� mouse angle) is at least 1.0.
 		 */
 		
 		
