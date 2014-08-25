@@ -17,7 +17,7 @@ public class Test {
 	}
 
 	public static void main(String[] args) {
-		Test test = new Test();
+		new Test();
 		//testing Cat.move()
 		boolean testMove = cat.move(mouse.getPosition());
 		System.out.println("should be false: " + testMove);
